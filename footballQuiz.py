@@ -4,16 +4,16 @@ import time
 random.seed(time.time())
 
 questions = {
-    "what is the capital of france ?" : {"choices" : ["Paris","london","berlin"],"answer": "paris"},
-    "What is 2 + 2 ?": {"choices" : ["3","22","4"],"answer": "4"},
-    "What is the hottest planet in our solar system?" : {"choices" : ["mars","earth","venus"],"answer": "venus"},
-    "What is 8 + 9 ?": {"choices" : ["8","89","17"],"answer": "17"},
-    "who is the best footballer ever" : {"choices" : ["Mbappe","Messi","shareef"],"answer":"Shareef"},
-    "What goes up and never goes down " : {"choices" : ["age","airballoon","balloon"], "answer" : "age"},
-    "What is 30 + 23 " : {"choices" : ["53","40","98"], "answer" : "53"},
-    "Who is the fastest person ever " : {"choices" : ["Usain Bolt","Noah Lyles","Kylian Mbappe"], "answer" : "Usain Bolt"},
-    "Who is the best racer " : {"choices" : ["Usain Bolt","luis Hamilton","trossard"], "answer" : "Luis Hamilton"},
-    "What 10 * 5 " : {"choices" : ["50","150","89"], "answer" : "50"},
+    "Who scored the first goal for aberdeen in holland Rood Wit tournement?" : {"choices" : ["Carter","Cisse","Huddson"],"answer": "Cisse"},
+    "Who won the award for the best goal of the season?" : {"choices" : ["Freddie","Nile","Jack"],"answer": "Jack"},
+    "Who was the captain for the Rood Wit tournement" : {"choices" : ["Alex","Carter","Huddson"],"answer": "Huddson"},
+    "what team is going to win the euro 2024" : {"choices" : ["England","Spain"],"answer": "Spain"},
+    "What position did we finish when we played the Rood Wit tournement" : {"choices" : ["5th","9th","11th"],"answer": "Spain"},
+    "How many European cups has aberdeen won" : {"choices" : ["4","2","1"],"answer": "2"},
+    "Which of the following coaches has gone to manage 5 teams" : {"choices" : ["Alex ferguson","Pep Guardiola","Gareth Southgate"],"answer": "Alex ferguson"},
+    "who is the youngest player in euro 2024" : {"choices" : ["mbappe","Nico Williams","Yamal"],"answer": "Alex ferguson"},
+    "How many Scottish league titles has Aberdeen FC won?" : {"choices" : ["5","4 ","6"],"answer": "4"},
+    "When did Aberdeen fc start playing football" : {"choices" : ["1903","1826","1951"],"answer": "Alex ferguson"},
 }
 
 def initialize_quiz():
